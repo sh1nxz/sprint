@@ -1,0 +1,112 @@
+
+
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Estilos para o menu de navegação */
+.navbar {
+    background-color: #333;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin: 0 15px;
+    padding: 10px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #007bff; /* Cor ao passar o mouse */
+}
+
+/* Estilos para cabeçalhos de seção */
+h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Estilos para seção do robô */
+#robot-section {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para seção de vídeos */
+#videos-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para rodapé */
+#footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilize os botões, inputs e outros elementos conforme necessário */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Adicione mais estilos personalizados conforme necessário */
+
+/* Estilos para todas as seções */
+section {
+    min-height: 100vh; /* Define a altura mínima como 100% da viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#robot-carousel {
+    max-width: 100%; /* Defina o valor desejado, como 70% da largura da tela /
+    margin: 0 auto; / Centralize o carousel horizontalmente */
+    max-height: 100%;
+
+    border: 2px solid #0056b3;
+    border-radius: 7px;
+}
+
+.img-border{
+    border-radius: 7px;
+}
+
+.text{
+    font-size: 30px;
+    border: 2px solid #0056b3;
+    border-radius: 7px;
+    padding-left: 10px;
+    
+
+}

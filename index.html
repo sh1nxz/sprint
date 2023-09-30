@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - RoboCup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">RoboCup</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#robot-section">O Robô</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#weapons-section">Sistema de Armas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hardware-section">Hardware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos-section">Vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#group-section">Grupo</a> <!-- Nova seção do Grupo -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-section">Contate-nos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ... (código anterior) -->
+
+<!-- ... (código anterior) -->
+
+<!-- Seção do Carousel -->
+<section id="carousel-section">
+    <div class="container">
+        <h2>O Robô</h2>
+        <div class="row">
+            <div class="col-md-6"> <!-- Coluna para a imagem do Carousel -->
+                <div id="robot-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Slides do Carousel -->
+                    <div class="carousel-inner img-border">
+                        <div class="carousel-item active">
+                            <img src="./images/imagem1.jpg" class="d-block w-100" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/imagem2.jpg" class="d-block w-100" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/imagem3.jpg" class="d-block w-100" alt="Imagem 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/imagem4.jpg" class="d-block w-100" alt="Imagem 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/imagem1.jpg" class="d-block w-100" alt="Imagem 5">
+                        </div>
+                    </div>
+                    <!-- Controles do Carousel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#robot-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#robot-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 texto"> <!-- Coluna para o texto -->
+                <p class="text">Esse é o nosso robô "Morpheus", ele foi construido pelo nosso grupo constituido por 5 pessoas, que durante o primeiro semestre fizeram uma grande amizade, alcançando através dessa união nossos objetivos podendo participar do next</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ... (resto do código) -->
+
+<!-- Adicione os links para os scripts JavaScript do Bootstrap 5 no final do seu arquivo -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- ... (resto do código) -->
+
+
+
+
+    <!-- Seção de Sistema de Armas com Cards -->
+    <section id="weapons-section">
+        <div class="container">
+            <h2>Sistema de Armas</h2>
+            <div class="card-deck">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="arma1.jpg" class="card-img-top" alt="Arma 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Arma 1</h5>
+                        <p class="card-text">Descrição da arma 1.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="arma2.jpg" class="card-img-top" alt="Arma 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Arma 2</h5>
+                        <p class="card-text">Descrição da arma 2.</p>
+                    </div>
+                </div>
+                <!-- Adicione mais cards conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Hardware com Accordion -->
+    <section id="hardware-section">
+        <div class="container">
+            <h2>Hardware Necessário</h2>
+            <div id="hardware-accordion">
+                <!-- Item 1 -->
+                <div class="card">
+                    <div class="card-header" id="item1">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                Componente 1
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse1" class="collapse show" aria-labelledby="item1" data-parent="#hardware-accordion">
+                        <div class="card-body">
+                            Descrição do componente 1.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="card">
+                    <!-- Adicione mais itens do Accordion conforme necessário -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Vídeos com Ratios para vídeos -->
+    <section id="videos-section">
+        <div class="container">
+            <h2>Vídeos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Construção do Robô</h3>
+                    <!-- Ratio para vídeo do YouTube -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/seu-video1" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Robô em Movimento</h3>
+                    <!-- Ratio para vídeo do YouTube -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/seu-video2" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Grupo -->
+    <section id="group-section">
+        <div class="container">
+            <h2>Conheça o Nosso Grupo</h2>
+            <!-- Conteúdo do grupo aqui -->
+        </div>
+    </section>
+
+    <!-- Seção de Contato com Forms -->
+    <section id="contact-section" class="not-fullscreen">
+        <div class="container">
+            <h2>Contate-nos</h2>
+            <!-- Formulário de contato Bootstrap -->
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua Mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seção de Rodapé -->
+    <section id="footer-section">
+        <div class="container text-center">
+            <!-- Rodapé aqui -->
+        </div>
+    </section>
+
+    <!-- Adicione os links para as bibliotecas do Bootstrap aqui -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
